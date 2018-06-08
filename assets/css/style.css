@@ -3,15 +3,12 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-
 .footer {
-    min-height: calc(55vh - 70px);
+    min-height: calc(45vh - 70px);
 }
-
 input {
     margin: 0 5px;
 }
-
 .title {
     padding: 15px;
     border-bottom: 1px solid #9E9E9E;
@@ -38,7 +35,6 @@ input {
     background-position: center top;
     height: 350px;
 }
-#search,
-#clear-search {
+#search, #clear-search {
     display: inline-block;
 }
