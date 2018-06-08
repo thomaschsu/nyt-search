@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #5C6BC0;
+    webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
+    text-shadow: 1px 1px #000;
+}
+body {
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.body-container {
+    display:table;
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background-position:center top;
+    height:350px;
+}
+.jumbotron {
+    background-color: #FAFAFA;
+    text-align: center;
+}
+.footer {
+    min-height: calc(65vh - 70px);
+}
+#start {
+    text-align: center;
+}
+#correctanswer,
+#wronganswers,
+#correctanswer2,
+#wronganswers2 {
+    display: inline;
+}
+input {
+    margin: 0 5px;
+}
+#timer {
+    margin: 20px auto;
+    background-color: #EF5350;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
+    text-shadow: 1px 1px #000;
+}
+button {
+    padding: 10px 15px;
+    background-color: #29B6F6;
+    color: #FFF;
+    border: none;
+}
