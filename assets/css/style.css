@@ -29,6 +29,7 @@ input {
     background-color: #FFF;
     width: 60%;
     margin: 0 auto;
+    border-radius: .3rem;
 }
 .body-container {
     display: table;
@@ -36,4 +37,8 @@ input {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
     background-position: center top;
     height: 350px;
+}
+#search,
+#clear-search {
+    display: inline-block;
 }
