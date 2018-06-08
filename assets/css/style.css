@@ -13,26 +13,14 @@ body {
 .body-container {
     display:table;
     width:100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
     background-position:center top;
     height:350px;
 }
-.jumbotron {
-    background-color: #FAFAFA;
-    text-align: center;
-}
+
 .footer {
     min-height: calc(65vh - 70px);
 }
-#start {
-    text-align: center;
-}
-#correctanswer,
-#wronganswers,
-#correctanswer2,
-#wronganswers2 {
-    display: inline;
-}
+
 input {
     margin: 0 5px;
 }
@@ -51,4 +39,20 @@ button {
     background-color: #29B6F6;
     color: #FFF;
     border: none;
+}
+
+.title {
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+.jumbotron {
+    background-color: #0277BD;
+    text-align: center;
+    color: #FFF;
+    width: 75%;
+    text-align: center;
+}
+.search-container {
+    background-color: #FFF;
+    padding: 15px; 
 }
