@@ -42,4 +42,5 @@ input {
 }
 .btn-primary {
     background-color: #0277BD;
+    border: none;
 }
