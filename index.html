@@ -15,27 +15,23 @@
          </div>
          <div id="search-container">
             <div class="title"><i class="fa fa-list-alt" aria-hidden="true"></i> Search Parameters</div>
-            <div class="row">
-               <form style="margin-left:20px; color:black">
-                  <div class="form-group" style="width:500px;">
-                     <label for="Name">Search Term:</label>
-                     <input type="name" class="form-control" id="search">
-                  </div>
-                  <div class="form-group" style="width:500px;">
-                      <label for="Name">Number of Records to Retrieve:</label>
-                      <input type="name" class="form-control" id="search">
+            <div class="col-sm-12 py-4">
+                <form>
+                   <div class="form-group">
+                      <label for="InputName">Name</label>
+                      <input type="text" class="form-control" id="InputName">
                    </div>
-                   <div class="form-group" style="width:500px;">
-                      <label for="Name">Start Year (Optional):</label>
-                      <input type="name" class="form-control" id="search">
+                   <div class="form-group">
+                      <label for="InputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="InputEmail1">
                    </div>
-                   <div class="form-group" style="width:500px;">
-                      <label for="Name">End Year (Optional):</label>
-                      <input type="name" class="form-control" id="search">
+                   <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" rows="7" placeholder="Type whatever is on your mind here"></textarea>
                    </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-               </form>
-            </div>
+                   <button type="submit" class="btn submit-button">Submit</button>
+                </form>
+             </div>
             <div id="search">
                 <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
             </div>
