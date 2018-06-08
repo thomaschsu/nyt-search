@@ -40,3 +40,6 @@ input {
 #search, #clear-search {
     display: inline-block;
 }
+.btn-primary {
+    background-color: #0277BD;
+}
