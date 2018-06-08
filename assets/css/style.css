@@ -12,6 +12,7 @@ input {
 .title {
     padding: 15px;
     border-bottom: 1px solid #9E9E9E;
+    font-weight: 600;
 }
 .jumbotron {
     background-color: #0277BD;
