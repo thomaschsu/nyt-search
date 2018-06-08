@@ -16,12 +16,10 @@ input {
     font-weight: 600;
 }
 .jumbotron {
-    background-color: #0277BD;
-    text-align: center;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(2,119,189,1));
     color: #FFF;
     text-align: center;
     webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
-    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
     text-shadow: 1px 1px #000;
 }
 #search-container {
