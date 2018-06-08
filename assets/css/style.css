@@ -1,55 +1,39 @@
 body {
-    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-.body-container {
-    display:table;
-    width:100%;
-    background-position:center top;
-    height:350px;
-}
 
 .footer {
-    min-height: calc(65vh - 70px);
+    min-height: calc(55vh - 70px);
 }
 
 input {
     margin: 0 5px;
 }
-#timer {
-    margin: 20px auto;
-    background-color: #EF5350;
-    padding: 10px 0;
-    text-align: center;
-    color: #fff;
-    webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
-    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
-    text-shadow: 1px 1px #000;
-}
-button {
-    padding: 10px 15px;
-    background-color: #29B6F6;
-    color: #FFF;
-    border: none;
-}
 
 .title {
-    padding: 10px 0;
-    border-bottom: 1px solid black;
+    padding: 15px;
+    border-bottom: 1px solid #000;
 }
 .jumbotron {
     background-color: #0277BD;
     text-align: center;
     color: #FFF;
-    width: 75%;
     text-align: center;
     webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15);
     text-shadow: 1px 1px #000;
 }
-.search-container {
+#search-container {
     background-color: #FFF;
-    padding: 15px; 
+    width: 60%;
+    margin: 0 auto;
+}
+.body-container {
+    display: table;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background-position: center top;
+    height: 350px;
 }
