@@ -1,4 +1,4 @@
-# nyt-search
+# NYT-Search
 
 This is a search page for New York Times.
 
