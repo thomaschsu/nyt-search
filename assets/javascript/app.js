@@ -47,16 +47,24 @@ $(document).on("click", ".btn",function(){
         var artdiv = $("<div>");
 
         var pheadline = $("<p>");
-        p.append(response.response.docs[i].headline.main);
-        
-        var pbyline = $("<p>");
-        p.append(response.response.docs[i].byline.original);
+        pheadline.append(response.response.docs[i].headline.main);
+        artdiv.append(pheadline);
 
+        var pbyline = $("<p>");
+        pbyline.append(response.response.docs[i].byline.original);
+        artdiv.append(pbyline);
+
+        var p_sec_nm = $("<p>");
+        p_sec_nm.append(response.response.docs[i].section_name);
+        artdiv.append(p_sec_nm);
         
-        artdiv.append(response.response.docs[i].byline.original);
-        artdiv.append(response.response.docs[i].section_name);
-        artdiv.append(response.response.docs[i].section_name);
-        artdiv.append(response.response.docs[i].web_url);
+        var p_pub_dt = $("<p>");
+        p_pub_dt.append(response.response.docs[i].pub_date);
+        artdiv.append(p_pub_dt);
+        
+        var p_w_url = $("<p>");
+        p_w_url.append(response.response.docs[i].web_url);
+        artdiv.append(p_w_url);
 
         $("#article-container").append(artdiv);
          
