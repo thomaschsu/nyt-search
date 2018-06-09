@@ -1,3 +1,7 @@
+// Bugs List
+// 1. Make the URL into a clickable link
+// 2. Format the time so that it looks better
+
 $(document).on("click", ".btn", function() {
 
     if ($(this).text() == " Search") {
