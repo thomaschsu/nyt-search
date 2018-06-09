@@ -1,6 +1,5 @@
 // Bugs List
 // 1. Make the URL into a clickable link
-// 2. Format the time so that it looks better
 
 $(document).on("click", ".btn", function() {
 
@@ -33,15 +32,15 @@ $(document).on("click", ".btn", function() {
                 pheadline.addClass("pheadline");
                 artdiv.append(pheadline);
 
-                var pbyline = $("<p>");
+                var pbyline = $("<li>");
                 pbyline.append(response.response.docs[i].byline.original);
                 artdiv.append(pbyline);
 
-                var p_sec_nm = $("<p>");
+                var p_sec_nm = $("<li>");
                 p_sec_nm.append(response.response.docs[i].section_name);
                 artdiv.append(p_sec_nm);
 
-                var p_pub_dt = $("<p>");
+                var p_pub_dt = $("<li>");
                 p_pub_dt.append(response.response.docs[i].pub_date);
                 artdiv.append(p_pub_dt);
 
