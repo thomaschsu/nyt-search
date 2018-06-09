@@ -43,11 +43,9 @@ input {
     background-color: #0277BD;
     border: none;
 }
-#article-container {
-    padding: 10px 20px;
-}
 .artDiv {
     font-weight: 600;
     margin-top: 20px;
     border-bottom: 1px solid #9E9E9E;
+    padding: 0 15px;
 }
