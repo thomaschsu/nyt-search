@@ -46,8 +46,8 @@ $(document).on("click", ".btn", function() {
 
                 var p_w_url = $("<p>");
                 p_w_url.append(response.response.docs[i].web_url);
+                p_w_url.addClass("urlClass");
                 artdiv.append(p_w_url);
-
                 $("#article-container").append(artdiv);
 
             }
