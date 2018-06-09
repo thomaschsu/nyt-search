@@ -47,9 +47,6 @@ $(document).on("click", ".btn", function() {
                 $("#article-container").append(artdiv);
 
             }
-
-
-
         });
     }
 });
