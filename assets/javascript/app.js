@@ -1,6 +1,3 @@
-// Bugs List
-// 1. Make the URL into a clickable link
-
 $(document).on("click", ".btn", function() {
 
     if ($(this).text() == " Search") {
@@ -45,7 +42,7 @@ $(document).on("click", ".btn", function() {
                 artdiv.append(p_pub_dt);
 
                 var p_w_url = $("<p>");
-                p_w_url.append(response.response.docs[i].web_url);
+                p_w_url.append('<a href="' + response.response.docs[i].web_url + '">' + response.response.docs[i].web_url);
                 p_w_url.addClass("urlClass");
                 artdiv.append(p_w_url);
                 $("#article-container").append(artdiv);
