@@ -1,6 +1,7 @@
 // Current Bug List
 // 1. Fix Clear Results button
 // 2. Before search is pulled, clear any previous search results
+// 3. Fix append bug
 
 var articlecontainer = $("#article-container");
 var startYr = "";
