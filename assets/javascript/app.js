@@ -1,6 +1,7 @@
 // Bug List
 // 1. Fix Clear Results button
 // 2. Hide the top articles title till after search is clicked
+// 3. Before search is pulled, clear any previous search results
 
 $(document).on("click", ".btn", function() {
 
