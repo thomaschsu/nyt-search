@@ -1,3 +1,11 @@
+$( "#search" ).click(function() {
+    alert( "you clicked search button" );
+  });
+
+  $( "#clear-search" ).click(function() {
+    alert( "cleared history" );
+  });
+
 
 $(document).on("click", ".btn",function(){
     
@@ -9,6 +17,8 @@ $(document).on("click", ".btn",function(){
     console.log($("#records").val());
     console.log($("#startyear").val());
     console.log($("#endyear").val());   
+
+
 
     var startYr ="";
     var endYr ="";
@@ -24,7 +34,8 @@ $(document).on("click", ".btn",function(){
                     +$("#searchterm").val()+startYr+endYr+"&p=1";
 
     //obama&begin_date=20170101&end_date=20180101&p=1
-    
+
+
     console.log(queryURL);
     $.ajax({
       url: queryURL,
@@ -35,6 +46,9 @@ $(document).on("click", ".btn",function(){
     })
 }
 })
+
+
+
         
        
        
