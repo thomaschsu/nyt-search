@@ -26,6 +26,7 @@ $(document).on("click", ".btn", function() {
 
                 var pheadline = $("<p>");
                 pheadline.append(response.response.docs[i].headline.main);
+                pheadline.addClass("pheadline");
                 artdiv.append(pheadline);
 
                 var pbyline = $("<p>");

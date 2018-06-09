@@ -49,3 +49,6 @@ input {
     border-bottom: 1px solid #9E9E9E;
     padding: 0 15px;
 }
+.pheadline {
+    font-size: 20px;
+}
