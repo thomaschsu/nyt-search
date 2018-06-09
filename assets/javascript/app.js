@@ -45,6 +45,7 @@ $(document).on("click", ".btn",function(){
         console.log(response.response.docs[i].web_url);
         
         var artdiv = $("<div>");
+        artdiv.addClass("artDiv");
 
         var pheadline = $("<p>");
         pheadline.append(response.response.docs[i].headline.main);
