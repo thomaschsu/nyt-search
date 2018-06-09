@@ -41,9 +41,24 @@ $(document).on("click", ".btn",function(){
         console.log(response.response.docs[i].headline.main);
         console.log(response.response.docs[i].byline.original);
         console.log(response.response.docs[i].section_name);
-        console.log(response.response.docs[i].pub_date);
-         console.log(response.response.docs[i].web_url);
+        console.log(response.response.docs[i].section_name);
+        console.log(response.response.docs[i].web_url);
         
+        var artdiv = $("<div>");
+
+        var pheadline = $("<p>");
+        p.append(response.response.docs[i].headline.main);
+        
+        var pbyline = $("<p>");
+        p.append(response.response.docs[i].byline.original);
+
+        
+        artdiv.append(response.response.docs[i].byline.original);
+        artdiv.append(response.response.docs[i].section_name);
+        artdiv.append(response.response.docs[i].section_name);
+        artdiv.append(response.response.docs[i].web_url);
+
+        $("#article-container").append(artdiv);
          
      }
         
