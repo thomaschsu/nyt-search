@@ -1,6 +1,5 @@
 // Current Bug List
 // 1. Fix Clear Results button
-// 2. Before search is pulled, clear any previous search results
 
 var articlecontainer = $("#article-container");
 var startYr = "";
@@ -10,7 +9,7 @@ var endYr = "";
 articlecontainer.hide();
 
 $(document).on("click", ".btn", function() {
-
+    $('#article-container').empty();
     if ($(this).text() == " Search") {
 
         if ($("#startyear").val() != "") {
