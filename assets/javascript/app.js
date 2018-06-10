@@ -1,5 +1,6 @@
 // Current Bug List
 // 1. Fix Clear Results button
+// 2. Empty removes title
 
 var articlecontainer = $("#article-container");
 var startYr = "";
