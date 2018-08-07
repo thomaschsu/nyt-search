@@ -1,9 +1,27 @@
-# NYT-Search
+# NYT Search
 
-This is a search page for New York Times.
+### Description
+Group project with three other people. This is a webpage dedicated to searching New York times. Fill our your search term, the number of records to retrieve, and optional add either the start year or end year.
 
-Enter your search term and select the number of records to retrieve.
+- - -
+### Demo
+![Image 1](/images/image01.gif)
 
-Use the Start Year and End Year optionally.
+- - -
 
-Enjoy :)
+### Skills Used
+1. JavaScript / JQuery
+2. HTML
+3. CSS / BootStrap
+4. Font Awesome
+
+- - - 
+### Live Link
+https://thomaschsu.github.io/nyt-search/
+
+- - -
+
+### Instructions
+* Fill out the form
+* Click "search"
+* Enjoy!
