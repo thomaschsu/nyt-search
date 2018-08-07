@@ -1,7 +1,7 @@
 # NYT Search
 
 ### Description
-Group project with three other members. This is a webpage dedicated to searching New York times. Fill our your search term, the number of records to retrieve, and optional add either the start year or end year.
+Group project with three other members. This is a webpage dedicated to searching New York times. Fill our your search term, the number of records to retrieve, and optionally add either the start year or end year.
 
 - - -
 ### Demo
