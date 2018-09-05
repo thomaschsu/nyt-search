@@ -10,10 +10,11 @@ Group project with three other members. This is a webpage dedicated to searching
 - - -
 
 ### Skills Used
-1. JavaScript / JQuery
-2. HTML
-3. CSS / BootStrap
-4. Font Awesome
+1. API
+2. JavaScript / JQuery
+3. HTML
+4. CSS / BootStrap
+5. Font Awesome
 
 - - - 
 ### Live Link
