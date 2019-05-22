@@ -1,10 +1,6 @@
-// Current Bug List
-// 1. Fix Clear Results button
-// 2. Empty removes title
-
-var articlecontainer = $("#article-container");
-var startYr = "";
-var endYr = "";
+const articlecontainer = $("#article-container");
+let startYr = "";
+let endYr = "";
 
 // Article container starts off as hidden
 articlecontainer.hide();
@@ -21,8 +17,7 @@ $(document).on("click", ".btn", function() {
             endYr = "&end_date=" + $("#endyear").val() + "1231";
         }
 
-        var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api_key=8972bc141a574aae8ccd6d9c82ed8113&q=" +
-            $("#searchterm").val() + startYr + endYr + "&p=1";
+        var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + $("#searchterm").val() + "&api-key=t1z0AI074FpGxA06p4SlOK92Ft38VQfD&" + startYr + endYr;
 
         $.ajax({
             url: queryURL,
